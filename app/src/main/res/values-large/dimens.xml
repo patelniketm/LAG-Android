@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="txtSize_28">52dp</dimen>
+    <dimen name="txtSize_26">50dp</dimen>
+    <dimen name="txtSize_18">32dp</dimen>
+    <dimen name="txtSize_16">28dp</dimen>
+    <dimen name="margin_10">20dp</dimen>
+    <dimen name="margin_5">10dp</dimen>
+    <dimen name="margin_20">30dp</dimen>
+    <dimen name="img_wid_height">70dp</dimen>
+    <dimen name="size_150">250dp</dimen>
+</resources>

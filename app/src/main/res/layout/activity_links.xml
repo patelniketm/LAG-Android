@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/relHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="15dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="25dp">
+
+        <RelativeLayout
+            android:id="@+id/relHeaderTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgAboutBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/backscientific" />
+
+            <TextView
+                android:id="@+id/txtAboutUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Our Links"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:id="@+id/relImgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginBottom="@dimen/rel_img_logo_margin_bottom"
+        android:layout_marginTop="@dimen/rel_img_logo_margin_top"
+        android:background="@color/white"
+        android:gravity="center_horizontal">
+
+    </RelativeLayout>-->
+
+
+    <WebView
+        android:id="@+id/weblorenApsum"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relHeader"
+        android:background="@color/white"></WebView>
+
+
+</RelativeLayout>
